@@ -1,0 +1,319 @@
+body{
+    background-color: var(--box1--);
+}
+:root {
+    --text--: blue;
+    --text2--:black;
+    --text3--:black;
+    --back1--: lightblue;
+    --back2--: #c2c2c2;
+    --back3--: #cc6600;
+    --container--: #44bba4;
+    --box1--:#e7e5df;
+  }
+.container{
+    display: block;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    margin-top: 0px;
+    background-color: var(--container--);
+    border: none;
+}
+.box1{
+    width: 70%;
+    height: 100%;
+    /** border-right: solid lightblue 10px;***/
+    background-color: var(--box1--);
+}
+.box2{
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    min-width: max-content;
+    margin-top: 50px;
+    color: var(--text3--);
+    
+}
+/** clases box1***/
+.map{
+    width: 30px; 
+    height: 30px;
+}
+.photo{
+    display: flex;
+    padding: 5px;
+}
+.fotoperfil{
+    margin-top: 10px;
+    width: 300px; 
+    height: 300px; 
+    border: solid;
+    border-radius: 100%;
+}
+.aboutme{
+    padding: 15px;
+    font-size: 25px;
+    display: block;
+}
+.logo-section{
+    width: 50px; height: 50px; 
+    margin-left: 20px; 
+    margin-top: 5px;
+}
+.section{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+.name{
+    font-size: 30px;
+    text-align: left;
+    margin: 1px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.title{
+    font-size: 35px;
+}
+.contenido{
+    font-size: 20px;
+    text-align: left;
+    margin: 1px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: var(--text2--);
+}
+.study{
+    margin: 5px;
+}
+.blockp{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.proyecto{
+    width: 50%;
+    padding: 5px;
+    display: flex;
+}
+.p1{
+    width: 40%;
+    text-align: center;
+}
+.logop{
+    width: 140px;
+    height: 140px;
+    margin-top: 8px;
+}
+.p2{
+    display: block;
+    width: 60%;
+    text-align: center;
+}
+.nombrep{
+    margin: 0px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.contenidop{
+    margin: 0px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.tecnologiasp{
+    margin: 0px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+/** box2**/
+.logo-box2{
+    width: 30px; 
+    height: 30px;
+}
+.link{
+    margin-top: 20px;
+}
+.linkContenido{
+    display: flex;
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.link-redes{
+   
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 10px;
+    color: var(--text3--);
+}
+.skills{
+    display: block;
+}
+.techs{
+    display: flex;
+}
+.tools{
+    display: flex;
+}
+.titulos-box2{
+    font-size: 30px;
+    margin: 0px; 
+}
+.subt-box2{
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.texto-box2{
+    font-size: 22px;
+    margin: 4px;
+}
+.color-red{
+    color: red;
+}
+.techs-info{
+    display: block; 
+    width: 50%;
+}
+@media (max-width: 1100px) {
+    .map{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .city{
+        font-size: 25px;
+    }
+    .logo-box2{
+        width: 50px;
+        height: 50px;
+    }
+    .box2{
+        margin-top: 100px;
+    }
+    .fotoperfil{
+        width: 250px;
+        height: 250px;
+    }
+    .container{
+        width: 98%;
+    }
+    .link-redes{
+        font-size: 20px;
+    }
+    .texto-box2{
+        font-size: 20px;
+    }
+    .me{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .contenido{
+        font-size: 20px;
+    }
+    .section{
+        font-size: 40px;
+    }
+    .logo-section{
+        width: 50px;
+        height: 50px;
+    }
+    .logop{
+        width: 100px;
+        height: 100px;
+    }
+    .nombrep{
+        font-size: 25px;
+    }
+    .contenidop{
+        font-size: 15px;
+    }
+    .titulos-box2{
+        font-size: 40px;
+    }
+    @media (max-width:900px) {
+        .photo{
+            display: block;
+            text-align: center;
+        }
+    }
+  }
+  @media (max-width: 450px) {
+      .contenidop{
+          padding: 3px;
+      }
+      .box1{
+          border: none;
+      }
+    .container{
+        display: block;
+    }
+    .box1{
+        width: 99%;
+        border: none;
+        padding: 5px;
+        word-wrap: break-word;
+    }
+    .box2{
+        width: 99%;
+        margin-top: 0px;;
+    }
+    .fotoperfil{
+        width: 150px;
+        height: 150px;
+        margin-top: 0px;
+    }
+    .blockp{
+        display: block;
+    }
+    .proyecto{
+        width: 100%;
+    }
+    .photo{
+        display: block;
+        text-align: center;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .me{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .contenido{
+        font-size: 15px;
+    }
+    .section{
+        font-size: 30px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .titulos-box2{
+        font-size: 30px;
+    }
+    .subt-box2{
+        font-size: 15px;
+    }
+    .logo-box2{
+        width: 35px;
+        height: 35px;
+    }
+    .map{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .city{
+        font-size: 18px;
+    }
+  }
