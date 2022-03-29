@@ -143,6 +143,11 @@ body{
     margin: 0px;
     margin-bottom: 10px;
 }
+.logo-contenidolink{
+    background-color: white;
+    border-radius: 100%;
+    width: 40px; height: 40px;
+}
 .link-redes{
    
     text-decoration: none;
